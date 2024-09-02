@@ -1,0 +1,27 @@
+.card {
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.8);
+}
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+body {
+    background: linear-gradient(135deg, #cce0ff, #e6f0ff);
+}
+.no-select {
+    user-select: none;
+}
+.credit-text {
+    font-size: 0.85rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    text-align: center;
+    color: black;
+}
+.info-item {
+    margin-bottom: 0.5rem;
+}
